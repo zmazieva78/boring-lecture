@@ -1,0 +1,11 @@
+p.intro {
+  font-style: italic;
+  color: blue;
+  width: 80%;
+}
+
+p.author {
+  font-family: fantasy;
+  color: red;
+  width: 50%;
+}
