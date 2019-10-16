@@ -1,13 +1,19 @@
 p.intro {
   font-style: italic;
-  color: blue;
-  width: 80%;
+  color: magenta;
+  width: 65%;
 }
-
-p.author {
-  font-family: fantasy;
-  color: red;
-  width: 50%;
+img.intro {
+  width: 250px;
+  height: auto;
+}
+h1.intro {
+  font-size: 45px;
+  font-family: cursive;
+  color: blue;
+}
+p {
+  width: 75%;
 }
 .important {
   color: magenta;
