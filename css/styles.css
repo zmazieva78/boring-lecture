@@ -9,3 +9,8 @@ p.author {
   color: red;
   width: 50%;
 }
+.important {
+  color: magenta;
+  font-family: cursive;
+  font-weight: 400;
+}
