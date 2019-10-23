@@ -1,26 +1,25 @@
-/* p.intro {
-  font-style: italic;
-  color: magenta;
-  width: 65%;
-}
-img.intro {
-  width: 250px;
-  height: auto;
-}
-h1.intro {
-  font-size: 45px;
-  font-family: cursive;
-  color: blue;
-} */
 .intro {
   font-family: cursive;
   color: red;
 }
 p {
   width: 75%;
+  font-size: 18px;
 }
 .important {
   color: magenta;
   font-family: cursive;
   font-weight: 400;
+}
+#addColor, #addColor2, #addColor3, #addColor4 {
+  cursor: pointer;
+  color: blue;
+}
+#addColor:hover,#addColor2:hover,#addColor3:hover,#addColor4:hover {
+  text-decoration: underline;
+}
+.allOver {
+  background-color: gray;
+  font-style: italic;
+  color: white;
 }
