@@ -22,4 +22,5 @@ p {
   background-color: gray;
   font-style: italic;
   color: white;
+  border: solid 5px blue;
 }

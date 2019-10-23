@@ -1,39 +1,56 @@
 $(document).ready(function() {
 // This function highlights and resets back to original state after each click
 
-    $(".highlight").click(function() {
+    $("#addColor").click(function() {
      if
-     ($(this).hasClass("allOver")) {
-       $(this).removeClass("allOver");
+
+     ($(".highlight").hasClass("allOver")) {
+       $(".highlight").removeClass("allOver");
      }
       else
       {
-        $(this).addClass("allOver");
+        $(".highlight").addClass("allOver");
       }
   });
 ////////////////////////////////////
+    $("#addColor2").click(function() {
+     if
 
+     ($(".highlight2").hasClass("allOver")) {
+       $(".highlight2").removeClass("allOver");
+     }
+      else
+      {
+        $(".highlight2").addClass("allOver");
+      }
+    });
 
+////////////////////////////////////////////////////////
 
-  $("#addColor2").click(function() {
-    // $(".highlight2").removeClass();
-    $(".highlight2").addClass("allOver");
+      $("#addColor3").click(function() {
+       if
 
-  });
-  $("#addColor3").click(function() {
-    // $(".highlight3").removeClass();
-    $(".highlight3").addClass("allOver");
+       ($(".highlight3").hasClass("allOver")) {
+         $(".highlight3").removeClass("allOver");
+       }
+        else
+        {
+          $(".highlight3").addClass("allOver");
+        }
+      });
 
-  });
-  $("#addColor4").click(function() {
-    // $(".highlight4").removeClass();
-    $(".highlight4").addClass("allOver");
+//////////////////////////////////////////////////////////////
 
-  });
+      $("#addColor4").click(function() {
+       if
 
-
-
-
-
+       ($(".highlight4").hasClass("allOver")) {
+         $(".highlight4").removeClass("allOver");
+       }
+        else
+        {
+          $(".highlight4").addClass("allOver");
+        }
+      });
 
 })
